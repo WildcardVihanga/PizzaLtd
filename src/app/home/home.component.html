@@ -1,0 +1,15 @@
+
+<span>How many people in your group?</span>
+<input type="number" [(ngModel)]="peopleNum"><br>
+<span>How many pieces each person will eat?</span><br>
+<input type="number" [(ngModel)]="piecePerPerson">
+<button (click)="calculateCost()">Submit</button>
+<!-- add result here -->
+<br>
+<span>Which size you like? These are options and Suggesions.</span>
+<br>
+<span>Cost for 5 inch Pizza is: {{totalCostForSize1}}</span><br>
+<span>Cost for 7 inch Pizza is: {{totalCostForSize2}}</span><br>
+<span>Cost for 10 inch Pizza is: {{totalCostForSize3}}</span><br>
+<span>Cost for 15 inch Pizza is: {{totalCostForSize4}}</span><br>
+<span>Cost for 24 inch Pizza is: {{totalCostForSize5}}</span><br>
